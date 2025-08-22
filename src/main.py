@@ -1,19 +1,4 @@
-from collections import Counter
-from stats import number_of_words
-import re
-
-
-def get_book_text(path, regx):
-    with open (path) as file:
-        file_content = file.read().lower()
-
-        words = re.findall(regx, file_content )
-
-        word_counts = Counter(words)
-
-        return word_counts
-
-
+from stats import get_book_text
 
 
 def main():
