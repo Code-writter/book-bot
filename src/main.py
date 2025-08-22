@@ -1,4 +1,5 @@
-path = "../sample/sample.txt"
+from stats import number_of_words
+
 
 def get_book_text(path):
     with open (path) as file:
@@ -10,10 +11,10 @@ def get_book_text(path):
 
 
 
-def number_of_words(file_content):
-    return len(file_content)
+def main():
+    path = "../sample/sample.txt"
+    print(path)
+    get_book_text(path)
 
 
-
-get_book_text(path)
-
+main()
