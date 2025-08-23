@@ -6,5 +6,5 @@ There are two functions in the stats.py
 1. For the word counts
 2. For the latter conts
 
-They both work on the give path of sample/
+They both work on the give path of sample
 
